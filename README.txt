@@ -4,7 +4,7 @@
 마을 탐험 게임으로 익히는 프로그램이에요. 캐릭터가 마을을 돌아다니며 건물 7곳에 들어가 활동을 하고 안전 도장을 모아요.
 
 ■ 인터넷 주소로 열기 (설치·다운로드 없이)
-  - 실행 주소: https://safety-village-gi-a-bis-projects.vercel.app
+  - 실행 주소: https://safety-village.vercel.app
   - 소스 저장소: https://github.com/Gi-A-Bi/safety-village  (여기에 올리면(push) Vercel 이 자동으로 다시 배포해요)
   - 쌤툴즈 소개 페이지: https://happydol.workers.dev/projects/safety-village
   - 개인정보처리방침: privacy.html (주소 뒤에 /privacy 를 붙여도 열려요)
