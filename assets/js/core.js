@@ -257,7 +257,7 @@ function goStart(){
             const m=modal(h('div',{},h('h2',{},'새 대원으로 시작할까요?'),h('p',{style:{fontSize:'20px'}},'지금까지 모은 패치와 약속이 모두 사라져요.'),
               h('div',{class:'row',style:{justifyContent:'flex-end'}},h('button',{class:'btn w',onclick:()=>m.close()},'아니요'),
                 h('button',{class:'btn',style:{background:'var(--red)',color:'#fff'},onclick:()=>{const k={pin:d.pin,closed:d.closed,bgm:d.bgm,calm:d.calm,sfx:d.sfx};Store.reset();Object.assign(Store.d,k);Store.save();m.close();goStart()}},'네, 새로 시작'))))},'w sm'):null),
-        h('small',{class:'hint'},S.subtitle)))));
+        h('small',{class:'hint'},S.subtitle,' · ',h('a',{href:'privacy.html',target:'_blank',rel:'noopener',style:{color:'inherit'}},'개인정보처리방침'))))));
 }
 /* 지킴이 등록증 만들기 */
 function goCard(){

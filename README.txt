@@ -3,7 +3,13 @@
 초등 안전교육 영역(생활·교통·폭력예방 및 신변보호·약물 및 사이버중독 예방·재난(화재 / 지진·자연재난)·응급처치)을
 마을 탐험 게임으로 익히는 프로그램이에요. 캐릭터가 마을을 돌아다니며 건물 7곳에 들어가 활동을 하고 안전 도장을 모아요.
 
-■ 실행 방법
+■ 인터넷 주소로 열기 (설치·다운로드 없이)
+  - 실행 주소: https://safety-village-gi-a-bis-projects.vercel.app
+  - 소스 저장소: https://github.com/Gi-A-Bi/safety-village  (여기에 올리면(push) Vercel 이 자동으로 다시 배포해요)
+  - 쌤툴즈 소개 페이지: https://happydol.workers.dev/projects/safety-village
+  - 개인정보처리방침: privacy.html (주소 뒤에 /privacy 를 붙여도 열려요)
+
+■ 실행 방법 (파일로 열기)
   1. 이 폴더(safety-village)를 통째로 원하는 곳에 둡니다. (index.html 과 assets 폴더가 같은 위치에 있어야 해요)
   2. index.html 을 더블클릭하면 브라우저(크롬·엣지·사파리 등)에서 바로 열립니다. 서버·로그인·설치가 필요 없어요.
      - 글꼴(Jua, Gowun Dodum)은 인터넷이 연결돼 있으면 구글 폰트에서 받아오고, 없으면 기기 글꼴로 대신 표시됩니다.
@@ -35,6 +41,8 @@
 
 ■ 폴더 구성
   index.html                       프로그램 화면과 디자인
+  privacy.html                     개인정보처리방침 (시작 화면 아래 링크)
+  vercel.json                      Vercel 호스팅 설정 (/privacy 처럼 .html 없는 주소 허용)
   assets/js/safety-data.js         ★ 건물·캐릭터·미션 문항 데이터 (내용을 바꾸려면 이 파일만 고치면 돼요)
   assets/js/village-data.js        지도 그림·통행 마스크·차단 영역·건물 입구 좌표 (지도 픽셀 좌표계)
   assets/js/embedded.js            통행 마스크·자격증 배경·패치·캐릭터 증명사진을 데이터로 넣어 둔 자동 생성 파일 (더블클릭으로 열어도 동작하게 해 줘요)
